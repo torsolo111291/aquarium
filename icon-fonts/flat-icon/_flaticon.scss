@@ -1,0 +1,58 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/11/2020 16:18
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-theatre:before { content: "\f100"; }
+.flaticon-spotlight:before { content: "\f101"; }
+.flaticon-theatre-mask:before { content: "\f102"; }
+.flaticon-spotlights:before { content: "\f103"; }
+.flaticon-vk:before { content: "\f104"; }
+.flaticon-placeholder:before { content: "\f105"; }
+.flaticon-phone:before { content: "\f106"; }
+.flaticon-email:before { content: "\f107"; }
+.flaticon-joker:before { content: "\f108"; }
+    
+    $font-Flaticon-theatre: "\f100";
+    $font-Flaticon-spotlight: "\f101";
+    $font-Flaticon-theatre-mask: "\f102";
+    $font-Flaticon-spotlights: "\f103";
+    $font-Flaticon-vk: "\f104";
+    $font-Flaticon-placeholder: "\f105";
+    $font-Flaticon-phone: "\f106";
+    $font-Flaticon-email: "\f107";
+    $font-Flaticon-joker: "\f108";
